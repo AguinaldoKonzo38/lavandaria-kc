@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
 }
 
 :root {
-  --primary_color: #E6F3FF;
+  --primary_color: #011FC1;
   --secundary_color: #CFE6FA;
   --white: #FFFFFF;
   --black: #000000;
   --text: #73716B;
 }
 
+/* 
+E6F3FF */
 section {
   max-width: 1500px;
 }

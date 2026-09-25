@@ -13,7 +13,7 @@ function Service() {
                 </div>
 
                 <div className="service-wrap">
-                    <div className="service_card">
+                    <div className="service_card " id="card1">
                         <div className="icon_service_card">
                             <img src={IconPerson} alt="" />
                             <h2>SELF-SERVICE</h2>
@@ -35,7 +35,7 @@ function Service() {
                         </div>
                     </div>
 
-                    <div className="service_card">
+                    <div className="service_card" id="card1">
                         <div className="icon_service_card">
                             <img src={IconPerson} alt="" />
                             <h2>SERVIÇO COMPLETO</h2>
