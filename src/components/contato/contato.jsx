@@ -12,12 +12,12 @@ function Contacto() {
                     <div className="contato_card">
                         <div>
                             <h2>ENDEREÇO</h2>
-                            <p>Av. Bernardino de Campos 98, Pinheiros </p>
-                            <p>São Paulo, SP</p>
+                            <p>Av. 21 de Janeiro, Luanda </p>
+                            <p></p>
                         </div>
                         <div>
                             <h2>TELEFONE</h2>
-                            <p>+244 923 000 000</p>
+                            <p> +244 922 116 411</p>
                         </div>
                     </div>
                     <div className="contato_card">
@@ -27,9 +27,9 @@ function Contacto() {
                         </div>
                         <div>
                             <h2>FUNCIONAMENTO</h2>
-                            <p>Seg - Sex: 8:00 - 20:00</p>
-                            <p>​​Sábado: 9:00 - 19:00</p>
-                            <p>Domingo: 9:00 - 20:00</p>
+                            <p>Segunda a Sexta-feira: 7:30 – 21:30</p>
+                            <p>Sábado: 7:30 – 20:00</p>
+                            <p>Domingo: 8:30 – 17:00</p>
                         </div>
                     </div>
 

@@ -1,6 +1,8 @@
 import "./service.css"
 
 import IconPerson from "../../assets/icons/person.png"
+import IconComercial from "../../assets/icons/icone-comercial-v2.png"
+import IconLava from "../../assets/icons/icone-lavagem.png"
 
 function Service() {
     return (
@@ -26,7 +28,7 @@ function Service() {
 
                     <div className="service_card">
                         <div className="icon_service_card">
-                            <img src={IconPerson} alt="" />
+                            <img src={IconLava} alt="" />
                             <h2>SERVIÇO DE LAVAGEM</h2>
                         </div>
                         <div className="service_card_content">
@@ -48,7 +50,7 @@ function Service() {
 
                     <div className="service_card">
                         <div className="icon_service_card">
-                            <img src={IconPerson} alt="" />
+                            <img src={IconComercial} alt="" />
                             <h2>COMERCIAL</h2>
                         </div>
                         <div className="service_card_content">
