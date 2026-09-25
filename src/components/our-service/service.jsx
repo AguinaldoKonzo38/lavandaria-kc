@@ -4,7 +4,7 @@ import IconPerson from "../../assets/icons/person.png"
 
 function Service() {
     return (
-        <section className="service">
+        <section className="service" id="service">
             <div className="service_container">
                 <div className="service_title">
                     <h1>NOSSOS SERVIÇOS</h1>

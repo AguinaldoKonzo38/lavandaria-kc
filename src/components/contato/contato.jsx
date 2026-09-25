@@ -1,7 +1,7 @@
 import "./contato.css"
 function Contacto() {
     return (
-        <section className="contato">
+        <section className="contato" id="contato">
             <div className="contato_container">
                 <div className="contato_title">
                     <h1>Contacto</h1>

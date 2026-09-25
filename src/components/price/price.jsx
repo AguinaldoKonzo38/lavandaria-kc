@@ -5,7 +5,7 @@ import IconLavar from "../../assets/icons/lavar.png"
 
 function Price() {
     return (
-        <section className="price">
+        <section className="price" id="price">
             <div className="price_container">
                 <div className="price_title">
                     <h1>TABELA DE PREÇOS</h1>
