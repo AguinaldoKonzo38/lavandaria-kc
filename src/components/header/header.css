@@ -1,0 +1,110 @@
+.header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--primary_color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.head_info {
+    padding: 0;
+    background-color: var(--black);
+    width: 100%;
+    color: var(--white);
+    padding: 4px 5%;
+    flex-wrap: wrap;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.head_info p {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.header_container {
+    padding: 1.2rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_container .nav_links {
+    display: none;
+    gap: 2rem;
+}
+
+.header_container .nav_links .links {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .head_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header_container {
+        padding: 1.5rem 5%;
+    }
+
+    .header_container .nav_links {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .head_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+    .header_container {
+        padding: 1.5rem 5%;
+    }
+
+    .header_container .nav_links {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .head_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header_container {
+        padding: 1.6rem 5%;
+    }
+
+    .header_container .nav_links {
+        display: flex;
+        gap: 2rem;
+    }
+
+}

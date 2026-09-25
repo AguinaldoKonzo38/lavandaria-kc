@@ -1,0 +1,84 @@
+.price {
+    padding: 4rem 5%;
+}
+
+.price_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.price_container .price_title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.border {
+    border: 3px solid var(--black);
+    width: 180px;
+}
+
+.price_container .price_title h1 {
+    font-size: 3rem;
+}
+
+.price_container .price_title p {
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.price_container .price_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.price_container .price_wrap .price_card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    width: 300px;
+}
+
+.price_container .price_wrap .price_card:nth-child(1) {
+    background-color: var(--secundary_color);
+}
+
+.price_container .price_wrap .price_card:nth-child(3) {
+    background-color: var(--secundary_color);
+}
+
+.price_container .price_wrap .price_card .price_card_icon {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.price_container .price_wrap .price_card .price_card_icon h2 {
+    font-size: .9rem;
+}
+
+.price_card_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.price_card_content p{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text);
+    padding: 3px;
+    color: var(--text);
+}
+
+.price_card_icon img{
+    width: 90px;
+}
