@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 .head_info p {
@@ -50,6 +51,10 @@
     color: var(--black);
 }
 
+.menu_mobile {
+    display: flex;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .head_info {
         display: flex;
@@ -66,6 +71,10 @@
     .header_container .nav_links {
         display: flex;
         gap: 2rem;
+    }
+
+    .menu_mobile {
+        display: none;
     }
 }
 
@@ -87,6 +96,10 @@
         display: flex;
         gap: 2rem;
     }
+
+    .menu_mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -105,6 +118,10 @@
     .header_container .nav_links {
         display: flex;
         gap: 2rem;
+    }
+
+    .menu_mobile {
+        display: none;
     }
 
 }

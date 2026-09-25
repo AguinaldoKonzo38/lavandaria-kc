@@ -4,8 +4,8 @@ function HeroSection() {
         <section className="hero_section">
             <div className="hero_section_container">
                 <div className="hero_section_content">
-                    <h1>Melhor servico de Lavandaria</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquid cupiditate mollitia sunt nemo, dignissimos nostrum minima dolores perferendis voluptatem nihil! Est, quae ipsa quod laboriosam eveniet ea nam possimus!</p>
+                    <h1>Cuidamos das suas roupas como você cuidaria</h1>
+                    <p>Na Lavandaria KC, cuidamos das suas roupas com qualidade, atenção e profissionalismo. Lavamos, tratamos e entregamos as suas peças limpas, cheirosas e prontas para usar.</p>
                 </div>
             </div>
         </section>
