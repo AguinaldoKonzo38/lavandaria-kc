@@ -1,12 +1,17 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
 import Homepage from "./pages/homepage/homepage"
+import SolicitarServico from "./pages/solicitar-service/solicitar"
+import Header from "./components/header/header"
+import Footer from "./components/footer/footer"
 
 function App() {
 
   const Layout = () => {
     return (
       <div>
+        <Header />
         < Outlet />
+        <Footer />
       </div>
     )
   }
@@ -19,6 +24,10 @@ function App() {
         {
           path: "/",
           element: <Homepage />,
+        },
+        {
+          path: "/solicitar-servico",
+          element: <SolicitarServico />,
         }
       ]
     }

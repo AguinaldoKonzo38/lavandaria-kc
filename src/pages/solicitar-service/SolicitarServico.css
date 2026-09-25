@@ -1,0 +1,148 @@
+.solicitar-servico {
+    min-height: 100vh;
+    padding: 90px 20px;
+    background: #f7f9f8;
+    margin-top: 5rem;
+}
+
+.solicitar-container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* INTRO */
+
+.solicitar-intro {
+    margin-bottom: 40px;
+}
+
+.solicitar-intro span {
+    display: block;
+    margin-bottom: 12px;
+    color: #0f5c4d;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.solicitar-intro h1 {
+    margin: 0 0 15px;
+    color: #17231f;
+    font-size: clamp(36px, 5vw, 55px);
+    line-height: 1.1;
+}
+
+.solicitar-intro p {
+    max-width: 600px;
+    margin: 0;
+    color: #68756f;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* FORM */
+
+.servico-form {
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #e3e9e6;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    color: #293631;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 15px;
+    border: 1px solid #d9e1dd;
+    border-radius: 8px;
+    outline: none;
+    background: #fff;
+    color: #17231f;
+    font-family: inherit;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0f5c4d;
+    box-shadow: 0 0 0 3px rgba(15, 92, 77, 0.08);
+}
+
+/* BUTTON */
+
+.btn-solicitar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #0f5c4d;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-solicitar:hover {
+    background: #0b493d;
+}
+
+.btn-solicitar span {
+    font-size: 20px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 650px) {
+
+    .solicitar-servico {
+        padding: 50px 15px;
+    }
+
+    .servico-form {
+        padding: 25px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .solicitar-intro h1 {
+        font-size: 38px;
+    }
+}

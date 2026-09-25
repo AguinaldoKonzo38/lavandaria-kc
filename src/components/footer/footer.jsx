@@ -14,7 +14,7 @@ function Footer() {
 
                 <div className="footer_social">
                     <a
-                        href="https://www.facebook.com/"
+                        href="https://www.facebook.com/share/1DvNaiTNwh/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Facebook"
@@ -48,7 +48,7 @@ function Footer() {
 
                 <p className="dev">
                     Desenvolvido pela{" "}
-                    <Link to="/">
+                    <Link to="https://growth-business.vercel.app">
                         Growth2Business
                     </Link>
                 </p>

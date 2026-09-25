@@ -32,7 +32,7 @@
 
 .price_container .price_wrap {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
@@ -71,7 +71,7 @@
     gap: 1rem;
 }
 
-.price_card_content p{
+.price_card_content p {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--text);
@@ -79,6 +79,70 @@
     color: var(--text);
 }
 
-.price_card_icon img{
+.price_card_icon img {
     width: 90px;
 }
+
+#bold {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text p{
+    line-height: 28px;
+}
+
+.solicitar_service{
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: var(--primary_color);
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.solicitar_service:active{
+    background-color: var(--secundary_color);
+}
+
+
+@media screen and (min-width: 762px) and (max-width: 992px) {
+    .price_container .price_wrap .price_card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .price_container .price_wrap .price_card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .price_container .price_wrap .price_card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        width: 1000px;
+    }
+}
+

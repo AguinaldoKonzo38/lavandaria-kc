@@ -88,13 +88,19 @@
     color: var(--white);
 }
 
-#card1 .icon_service_card h2{
+#card1 .icon_service_card h2, h3{
     color: var(--black);
 }
 
 #card1 .service_card_content p{
     color: var(--black);
 }
+
+#lavagem h3{
+    color: white;
+}
+
+
 
 
 
@@ -105,7 +111,7 @@
         font-size: 4rem;
     }
 
-    .service-wrap .service_card .service_card_content p {
+    .service-wrap .service_card .service_card_content p, h3 {
         font-size: 1.1rem;
         line-height: 30px;
         padding-left: 7.5rem;
@@ -117,7 +123,7 @@
         font-size: 4rem;
     }
 
-    .service-wrap .service_card .service_card_content p {
+    .service-wrap .service_card .service_card_content p, h3{
         font-size: 1.1rem;
         line-height: 30px;
         padding-left: 7.5rem;
@@ -129,7 +135,7 @@
         font-size: 4.5rem;
     }
 
-    .service-wrap .service_card .service_card_content p {
+    .service-wrap .service_card .service_card_content p, h3 {
         font-size: 1.1rem;
         line-height: 30px;
         padding-left: 7.5rem;

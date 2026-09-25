@@ -8,12 +8,10 @@ import Price from "../../components/price/price";
 function Homepage() {
     return (
         <div>
-            <Header />
             <HeroSection />
             <Service />
             <Price />
             <Contacto />
-            <Footer />
         </div>
     )
 }
