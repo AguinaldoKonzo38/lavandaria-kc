@@ -24,7 +24,7 @@ function Contacto() {
                     <div className="contato_card">
                         <div>
                             <h2>EMAIL</h2>
-                            <p>info@meusite.com</p>
+                            <p>lavandariakc@gmail.com</p>
                             <p>Para pedidos de informação, parcerias ou serviços comerciais, envienos uma mensagem. </p>
                         </div>
                         <div>

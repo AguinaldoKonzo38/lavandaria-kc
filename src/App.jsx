@@ -3,6 +3,7 @@ import Homepage from "./pages/homepage/homepage"
 import SolicitarServico from "./pages/solicitar-service/solicitar"
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
+import WhatsappButton from "./components/whatsapp-button/whatsapp"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Header />
         < Outlet />
         <Footer />
+        <WhatsappButton />
       </div>
     )
   }
