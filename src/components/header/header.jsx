@@ -2,11 +2,15 @@ import "./header.css"
 import { FaBars } from "react-icons/fa"
 import { Link } from "react-router-dom";
 import { useState } from "react"
+import ModalMenuMobile from "./modal-mobile"
+
 
 import logo from "../../assets/images/logo-kc.png"
 
 
 function Header() {
+
+    const [isOpen, setIsOpen] = useState(false)
 
     const scrollToSection = (id) => {
 
@@ -41,13 +45,14 @@ function Header() {
 
                 {/* menu mobile */}
                 {/* <FaBars onClick={() => setIsOpen(true)} className="menu_mobile" size={26} /> */}
-                <FaBars className="menu_mobile"  color="white" size={26} />
+                <FaBars onClick={() => setIsOpen(true)} className="menu_mobile"  color="white" size={26} />
 
             </div>
-{/* 
-            <ModalMenuMobile
-                isOpen={isOpen}
-                onClose={() => setIsOpen(false)} /> */}
+            
+            <ModalMenuMobile 
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            scrollToSection={scrollToSection} />
 
         </header >
     )

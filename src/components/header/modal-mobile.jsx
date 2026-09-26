@@ -1,9 +1,8 @@
 import "./modal-menu-mobile.css"
 import { Link } from "react-router-dom";
 
-import ModalMenuMobile from "./modal-mobile.jsx"
 
-function ModalMenuMobile({ isOpen, onClose }) {
+function ModalMenuMobile({ isOpen, onClose, scrollToSection }) {
 
     if (!isOpen) return null
 
